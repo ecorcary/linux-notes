@@ -15,4 +15,5 @@ WSL2 + Ubuntu 26.04 学习记录（机器人系统集成测试方向）。
 | Python | 3.14.4 |
 | Git | 2.53.0 |
 ## 学习进度
--2026-11-14：Linux 基础命令（pwd/ls/cd/mkdir）
+
+- 2026- 11- 14：Linux 基础命令（ pwd / ls / cd / mkdir ）
