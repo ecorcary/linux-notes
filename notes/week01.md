@@ -49,7 +49,7 @@
 - **`tail test.txt` 找不到**：文件名拼错（实际是 `test1.txt`），先 `ls` 再敲
 - **`grep "lhc" .` 报 Is a directory**：搜目录要加 `-r`
 - **`cp -p dir1 dir2` 报 -r not specified**：`-p` 是保留属性，递归是 `-r`
-- **`cd ~/zhengpf` 报错**：`~` 本身就是 `/home/zhengpf`，不能再套一层
+- **`cd ~/lhc` 报错**：`~` 本身就是 `/home/lhc`，不能再套一层
 - **在 `/` 下 `mkdir` 报 Permission denied**：根目录属主是 root，普通用户只能读
 - **`su - root` 一直失败**：Ubuntu 的 root 默认无密码，要用 `sudo`
 - **`wc` 的输出顺序固定**：按 `l → w → m → c`，与参数书写顺序无关
